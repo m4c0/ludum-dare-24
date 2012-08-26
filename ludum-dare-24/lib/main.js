@@ -4,7 +4,8 @@ var fs      = require("fs");
 var app = express();
 app.use(express.cookieParser());
 
-app.get("/", passFile("web/index.html", "text/html"))
+app.get("/js/main.js", passFile("../web/js/main.js", "text/html"))
+app.get("/",           passFile("../web/index.html", "text/html"))
 
 app.all("*", function(req, resp) {
     resp.status(404);
