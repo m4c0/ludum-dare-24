@@ -5,23 +5,22 @@
     "main":         "./ludum-dare-24.js",
     
     "author": {
-        "name" :        "ecosta",
-        "email" :       ""
+        "name"  : "Eduardo Maurício da Costa",
+        "email" : ""
     },
     
-    "keywords":     [],
+    "keywords": [],
     
-    "licenses":      {
+    "licenses": {
         "type": "bsd"
-    }
+    },
+    
+    "dependencies": {
+        "express" : "3.0.0rc3"
+    },
 
-/*
-  "repository" : {
-  	  "type" : "git",
-  	  "url" : "git://github.com/YOUR_LOGIN/ludum-dare-24.git"
-  },
-  "bugs" : {
-  	  "web" : "http://github.com/YOUR_LOGIN/ludum-dare-24/issues"
-  },
-*/
+    "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/m4c0/ludum-dare-24.git"
+    },
 }
