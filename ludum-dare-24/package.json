@@ -2,7 +2,7 @@
     "name":         "ludum-dare-24",
     "description":  "(pending)",
     "version":      "0.1",
-    "main":         "./ludum-dare-24.js",
+    "main":         "./lib/main.js",
     
     "author": {
         "name"  : "Eduardo Maurício da Costa",
