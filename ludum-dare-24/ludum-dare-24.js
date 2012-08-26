@@ -1,14 +1,14 @@
-/*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
- */
+var express = require("express");
 
-var http = require('http');
-http.createServer(function (req, res) {
-    res.writeHead(200, {
-        'Content-Type': 'text/plain'
-    });
-    
-    res.end('Hello World.\n');
+var app = express();
+app.use(express.cookieParser());
 
-}).listen(9080, "");
+app.all("*", function(req, resp) {
+    resp.status(404);
+    resp.type("text/plain");
+    resp.send("Not Found");
+})
+
+app.listen(8080);
+
+console.error("Server started");
