@@ -1,0 +1,27 @@
+{
+    "name":         "ludum-dare-24",
+    "description":  "(pending)",
+    "version":      "0.1",
+    "main":         "./ludum-dare-24.js",
+    
+    "author": {
+        "name" :        "ecosta",
+        "email" :       ""
+    },
+    
+    "keywords":     [],
+    
+    "licenses":      {
+        "type": "bsd"
+    }
+
+/*
+  "repository" : {
+  	  "type" : "git",
+  	  "url" : "git://github.com/YOUR_LOGIN/ludum-dare-24.git"
+  },
+  "bugs" : {
+  	  "web" : "http://github.com/YOUR_LOGIN/ludum-dare-24/issues"
+  },
+*/
+}
